@@ -1,0 +1,94 @@
+body{
+    background-image: linear-gradient( lightblue , rgb(0, 217, 255), blue);
+}
+#score_1{
+    color:magenta;
+    font-size: large;
+   
+    float: left; 
+    margin-left: 40px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#timer_1{
+    color:magenta;
+    font-size: large;
+   
+    float: right; 
+    margin-right: 100px;
+}
+#timer, #score{
+    color:rebeccapurple;
+    font-size: large;
+    font-weight: bold;
+}
+#show_sketch{
+    background-color:magenta;
+    color: white; 
+} 
+
+#clearc{
+    background-color:magenta;
+    color: white;
+    font-weight: bold;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+#show_sketch:hover{
+    background-color:purple;
+
+}
+#clearc:hover{
+    background-color:purple;
+    
+
+}
+h1
+{
+  font-family: 'Special Elite', fantasy;
+
+  background-color: cornsilk;
+}
+
+#show_sketch
+{
+  float:right;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+canvas 
+  {
+    border:5px solid pink;
+    border-radius:20px;
+    margin-top:150px;
+    background-color: black;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 70px magenta;}
+  to {box-shadow: 1px 1px 70px white;}
+
+}
+
+
+p, span
+  {
+    padding-top:10px;
+    font-family: 'Special Elite', fantasy;
+    font-size:20px;
+    
+  }
+#object, #confidence1{
+  color: purple;
+  font-size: 15px;
+}
